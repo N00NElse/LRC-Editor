@@ -1,0 +1,3 @@
+ - Added a new setting to save lyrics with a leading space
+ - Fixed an issue with timestamp milliseconds being read incorrectly
+ - Translation improvements
