@@ -47,6 +47,10 @@ android {
 		targetCompatibility JavaVersion.VERSION_21
 	}
 
+	lint {
+		ignore 'ExpiringTargetSdkVersion'
+	}
+
 	packaging {
 		resources {
 			excludes += 'META-INF/*'
