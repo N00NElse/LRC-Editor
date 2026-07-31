@@ -1,20 +1,18 @@
-# LRC Editor &nbsp; [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ![Version: 3.2.7](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=3.2.7)
+# LRC Editor &nbsp; [
+
+![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
+
+](https://www.gnu.org/licenses/gpl-3.0) 
+
+![Version: 3.2.7](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=3.2.7)
+
+
+
+> **Nota:** Este é um fork experimental/de testes do [LRC Editor original](https://github.com/Spikatrix/LRC-Editor), criado por [Spikatrix](https://github.com/Spikatrix). O objetivo aqui é estudar e testar modificações no app — pode ou não evoluir para algo maior no futuro. Todos os créditos do projeto original permanecem com o autor.
 
 <img src="https://github.com/Spikatrix/LRC-Editor/assets/12792882/c2ec19e1-bd2f-4c82-b060-4e49b02acebb" alt="LRC Editor App Icon" align="left" style="margin: 10px 20px 10px 10px; border-radius: 15%; box-shadow: 0 6px 20px 2px black">
 
 LRC Editor is an Android app that helps you to create and edit .lrc files easily
-
-It is available to download on [F-Droid][fdroid_page] and [GitHub][github_release_page]
-
-<p>
-	<a href="https://f-droid.org/packages/com.cg.lrceditor">
-		<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80px">
-	</a>
-	<a href="https://github.com/Spikatrix/LRC-Editor/releases">
-		<img src="https://github.com/Spikatrix/LRC-Editor/assets/12792882/cf29751a-93bf-4f47-96b2-99716653e3ba" alt="Download from GitHub" height="80px">
-	</a>
-
-</p>
 
 ## About
 
@@ -30,8 +28,6 @@ You can then use LRC files in Music players, Karoke applications and more. The s
 
 <img src="https://raw.githubusercontent.com/Spikatrix/LRC-Editor/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" height="300px"> &nbsp; &nbsp; <img src="https://raw.githubusercontent.com/Spikatrix/LRC-Editor/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" height="300px">
 
-More screenshots are available in the [F-Droid page][fdroid_page_screenshots]
-
 ## Permissions
 
 LRC Editor requires the storage permission so that it can read and save LRC files.
@@ -40,9 +36,9 @@ Note: Android 11 brings much more stricter storage access enforcements and LRC E
 
 ## Build from source
 
-If you wish to build from source, clone the repo and run gradle's `assembleDebug` task:
+If you wish to build from source, clone this repository and run gradle's `assembleDebug` task:
 
-	git clone https://github.com/Spikatrix/LRC-Editor
+	git clone <URL deste repositório>
 	cd LRC-Editor
 	./gradlew assembleDebug
 
@@ -56,13 +52,7 @@ There are two build flavors in this project:
 
 ## Contributing
 
-LRC Editor is a FOSS app developed by [me](https://github.com/Spikatrix). Contributions are always welcome.
-
-Here are a few ways you can help:
- * Report bugs and provide suggestions via the [Issue Tracker][issue_tracker] or via [email][email_feedback]
- * Translate the app ([main][main_strings], [playstore][playstore_strings], [fdroid][fdroid_strings]) and send in the translations via a pull request or via [email][email_app_translation]
- * Tackle one of the issues/feature-requests from the [Issue Tracker][issue_tracker], make new useful features or fix bugs. In doing so, make sure that the app is still fast, minimal and easy to use.
- * Cleanup and refactor the code making it much more easier to understand and maintain.
+LRC Editor is a FOSS app originally developed by [Spikatrix](https://github.com/Spikatrix). This fork is a personal, experimental version — for contributions to the original project, please use the [original repository][original_repo].
 
 ## Translators
 
@@ -86,22 +76,9 @@ And a big thank you to all the Google Play Store description translators:
 This project is licensed under the [GNU GPLv3 License][project_license]
 
 <!-- Link references -->
-[play_store_page]: https://play.google.com/store/apps/details?id=com.cg.lrceditor
-[fdroid_page]: https://f-droid.org/packages/com.cg.lrceditor
-[fdroid_page_screenshots]: https://f-droid.org/packages/com.cg.lrceditor#screenshots
-[github_release_page]: https://github.com/Spikatrix/LRC-Editor/releases
+[original_repo]: https://github.com/Spikatrix/LRC-Editor
 
 [play_store]: https://play.google.com/store
 [fdroid]: https://www.f-droid.org/
-
-[issue_tracker]: https://github.com/Spikatrix/LRC-Editor/issues
-
-[main_strings]: https://github.com/Spikatrix/LRC-Editor/blob/master/app/src/main/res/values/strings.xml
-[playstore_strings]: https://github.com/Spikatrix/LRC-Editor/blob/master/app/src/playstore/res/values/strings.xml
-[fdroid_strings]: https://github.com/Spikatrix/LRC-Editor/blob/master/app/src/fdroid/res/values/strings.xml
-
-[email_feedback]: mailto:cg.devworks@gmail.com?subject=LRC+Editor+Feedback&body=Your+feedback+here
-[email_app_translation]: mailto:cg.devworks@gmail.com?subject=LRC+Editor+Translation
-[email_play_store_translation]: mailto:cg.devworks@gmail.com?subject=LRC+Editor+Play+Store+Description+Translation
 
 [project_license]: https://github.com/Spikatrix/LRC-Editor/blob/master/LICENSE
