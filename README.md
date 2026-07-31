@@ -1,8 +1,6 @@
-# LRC Editor &nbsp; [
+# LRC Editor
 
-![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)
-
-](https://www.gnu.org/licenses/gpl-3.0) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![Version: 3.2.7](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=3.2.7)
 
