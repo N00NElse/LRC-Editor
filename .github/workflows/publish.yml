@@ -48,8 +48,8 @@ jobs:
       - name: Upload APK release
         run: |
           gh release create v-dev apk_output/${{ env.APK_NAME }} \
-            --title "LRC Editor Developer Build" \
-            --notes "Unreleased developer build (\`fdroid\` build variant) with the latest updates" \
+            --title "Alpha Fork of LRC Editor Developer Build" \
+            --notes "Latest pre-release alpha versions" \
             --target "${{ github.event.workflow_run.head_sha }}" \
             --prerelease
         env:
