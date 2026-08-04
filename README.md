@@ -4,9 +4,12 @@
 
 ![Version: 3.2.7](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=3.2.7)
 
+![Project Status](https://img.shields.io/badge/Project-Experimental-red)
 
 
-> **Nota:** Este é um fork experimental/de testes do [LRC Editor original](https://github.com/Spikatrix/LRC-Editor), criado por [Spikatrix](https://github.com/Spikatrix). O objetivo aqui é estudar e testar modificações no app — pode ou não evoluir para algo maior no futuro. Todos os créditos do projeto original permanecem com o autor.
+> **Note:** This is an **experimental/test fork** of the [original LRC Editor](https://github.com/Spikatrix/LRC-Editor) created by [Spikatrix](https://github.com/Spikatrix). The primary purpose of this repository is for personal study, testing, and tinkering with modifications. **It is highly experimental, and it may or may not evolve into something bigger in the future.** All credits for the original project belong entirely to its original author. 
+> 
+> *Looking for the official, stable version? Please download or install it directly from the [original repository](https://github.com/Spikatrix/LRC-Editor/releases) or its official distribution channels.*
 
 <img src="https://github.com/Spikatrix/LRC-Editor/assets/12792882/c2ec19e1-bd2f-4c82-b060-4e49b02acebb" alt="LRC Editor App Icon" align="left" style="margin: 10px 20px 10px 10px; border-radius: 15%; box-shadow: 0 6px 20px 2px black">
 
@@ -16,11 +19,18 @@ LRC Editor is an Android app that helps you to create and edit .lrc files easily
 
 LRC Editor is a small, minimal Android app that helps you to create and edit .lrc (lyric) files. You can edit lyrics, tune timestamps, batch edit timestamps and much more. You can also open LRC files directly from your file manager<sup>1</sup>. The best part is that LRC Editor is completely free of ads!
 
-You can then use LRC files in Music players, Karoke applications and more. The stock music players of major phone manufacturers like Xiaomi, Huawei, OPPO, Samsung and more support LRC files. However, not all music players supports it, for instance LG's stock media player does not support it. Check your music player's documentation to know if it supports LRC files.
+You can then use LRC files in Music players, Karaoke applications and more. The stock music players of major phone manufacturers like Xiaomi, Huawei, OPPO, Samsung and more support LRC files. However, not all music players supports it, for instance LG's stock media player does not support it. Check your music player's documentation to know if it supports LRC files.
 
 **Note**: To get the best precision when syncing lyrics, use a high quality constant bitrate MP3 file or something similar. Compressed music files usually don't have accurate seek information in them which might lead to desync issues.
 
 <sup>1</sup> [Samsung's stock file manager has issues with this](https://github.com/Spikatrix/LRC-Editor/issues/16)
+
+## Downloads (Original Project)
+
+If you are looking to download the official, stable application rather than this experimental fork, please use the links below:
+- [Official Releases / APKs](https://github.com/Spikatrix/LRC-Editor/releases)
+- [F-Droid Page](https://f-droid.org/packages/com.spikatrix.lrc_editor/) (if applicable)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.spikatrix.lrc_editor)
 
 ## Screenshots
 
@@ -36,7 +46,7 @@ Note: Android 11 brings much more stricter storage access enforcements and LRC E
 
 If you wish to build from source, clone this repository and run gradle's `assembleDebug` task:
 
-	git clone <URL deste repositório>
+	git clone <URL of this repository>
 	cd LRC-Editor
 	./gradlew assembleDebug
 
@@ -50,7 +60,7 @@ There are two build flavors in this project:
 
 ## Contributing
 
-LRC Editor is a FOSS app originally developed by [Spikatrix](https://github.com/Spikatrix). This fork is a personal, experimental version — for contributions to the original project, please use the [original repository][original_repo].
+LRC Editor is a FOSS app originally developed by [Spikatrix](https://github.com/Spikatrix). This fork is a personal, experimental sandbox version — for contributions to the official project, please visit and contribute to the [original repository][original_repo].
 
 ## Translators
 
